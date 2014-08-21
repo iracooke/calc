@@ -7,6 +7,8 @@ def add_all(nums):
 def multiply_all(nums):
     return reduce(lambda a, b: a * b, nums)
 
+# some useless comment
+
 if __name__ == '__main__':
     command = sys.argv[1]
     nums = map(float, sys.argv[2:])
